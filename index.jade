@@ -1,0 +1,128 @@
+doctype 5
+html(lang="en")
+  head
+    title= "Development///Design"
+    link(type='text/css', rel='stylesheet', href='css/style.css')
+    link(type='text/css', rel='stylesheet', href='css/bootstrap.css')
+    link(type='text/css', rel='stylesheet', href='css/bootstrap-theme.css')
+    link(type='text/css', rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
+    link(type='text/css', rel='stylesheet', href='http://fonts.googleapis.com/css?family=Allerta|Megrim')
+  body
+    nav.navbar.navbar-default(role="navigation")
+      div.navbar-header
+        button.navbar-toggle(type="button", data-toggle="collapse", data-target="#portfolio-navbar-collapse")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href="#") portfolio
+      div.collapse.navbar-collapse#portfolio-navbar-collapse
+        ul.nav.navbar-nav
+          li.active
+            a(href="#") Skills
+          li
+            a(href="#") Sites
+          li.dropdown
+            a.dropdown-toggle(href="#", data-toggle="dropdown") Design 
+              b.caret
+            ul.dropdown-menu
+              li
+                a(href="#") Logos
+              li
+                a(href="#") Business Cards
+              li
+                a(href="#") Posters
+          li
+            a(href="#") Resume
+
+    div.container.marketing
+      div.jumbotron
+        h1 Hello there!
+        p.lead I'm me, and this is my stuff.
+        p.social-links
+          button.btn
+            i.fa.fa-github
+          button.btn
+            i.fa.fa-linkedin
+          button.btn
+            i.fa.fa-instagram
+          button.btn
+            i.fa.fa-envelope-o
+      div.row.skills
+        div.col-lg-4
+          img.img-circle(data-src="holder.js/140x140", alt="140x140", style="width: 140px; height: 140px;")
+          h2 heading
+          p cool stuff
+        div.col-lg-4
+          img.img-circle(data-src="holder.js/140x140", alt="140x140", style="width: 140px; height: 140px;")
+          h2 heading
+          p cool stuff
+        div.col-lg-4
+          img.img-circle(data-src="holder.js/140x140", alt="140x140", style="width: 140px; height: 140px;")
+          h2 heading
+          p cool stuff
+      hr.featurette-divider
+      div.row.featurette
+        div.col-md-7
+          h2.featurette-heading Here's a thing.
+            span.text-muted whoa!
+          p.lead Here's what I did!
+        div.col-md-5
+          img.featurette-image.img-responsive( data-src="holder.js/500x500/auto", alt="500x500")
+      hr.featurette-divider
+      div.row.featurette
+        div.col-md-5
+          img.featurette-image.img-responsive( data-src="holder.js/500x500/auto", alt="500x500")
+        div.col-md-7
+          h2.featurette-heading Here's a thing.
+            span.text-muted whoa!
+          p.lead Here's what I did!
+      hr.featurette-divider
+      div.row.featurette
+        div.col-md-7
+          h2.featurette-heading Here's a thing.
+            span.text-muted whoa!
+          p.lead Here's what I did!
+        div.col-md-5
+          img.featurette-image.img-responsive( data-src="holder.js/500x500/auto", alt="500x500")
+      hr.featurette-divider
+      div.row.featurette
+        div.col-md-5
+          img.featurette-image.img-responsive( data-src="holder.js/500x500/auto", alt="500x500")
+        div.col-md-7
+          h2.featurette-heading Here's a thing.
+            span.text-muted whoa!
+          p.lead Here's what I did!
+      hr.featurette-divider
+      div.row.featurette
+        div.col-md-7
+          h2.featurette-heading Here's a thing.
+            span.text-muted whoa!
+          p.lead Here's what I did!
+        div.col-md-5
+          img.featurette-image.img-responsive( data-src="holder.js/500x500/auto", alt="500x500")
+      hr.featurette-divider
+      div.row.featurette
+        h1 Here's my Resume.
+        div
+          p
+            button.btn.btn-large.btn-danger Download in PDF
+          p  
+            button.btn.btn-large.btn-success Download in RTF
+
+      div.jumbotron
+        h1 Interested?
+        p
+          button.btn.large.btn-danger Email Me!
+      hr.featurette-divider
+
+      footer
+        p.pull-right
+          a(href="#") back to top
+        p © 2013 Company, Inc. 
+
+
+
+
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    script(src='js/bootstrap.min.js')
